@@ -5,6 +5,11 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+.content {
+  max-width: 1400px;
+  margin: auto;
+  padding: 0 30px;
+}
 .topnav {
     overflow: hidden;
   }
@@ -28,17 +33,16 @@ a:nth-child(4){
     position: relative;
     width: 90px;
     margin-top: -20px;
-    margin-left: 100px;
+    margin-left: 10px;
 
   }
-
   .topnav .icon {
     display: none;
   }
   @media screen and (max-width: 600px) {
     .topnav img{
         position: relative;
-        right: 110px;
+        right: 20px;
         
     }
   }
